@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Counter App + Theme Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- MAIN HEADING -->
+  <h1 class="main-heading">
+    RAM NAAM COUNTER
+  </h1>
+
+  <!-- COUNTER APP -->
+  <div class="container">
+    <h1>
+      Counter App
+    </h1>
+
+    <div id="count">
+      0
+    </div>
+
+    <!-- Negative Button -->
+    <div class="negative" onclick="decrement()">
+      -ve
+    </div>
+
+    <!-- Reset Button -->
+    <div class="Reset" onclick="reset()">
+      Reset
+    </div>
+
+    <!-- Positive Button -->
+    <div class="positive" onclick="increment()">
+      +ve
+    </div>
+  </div>
+
+  <!-- RAM NAAM SECTION -->
+  <h1 class="ram-heading">
+    RAM NAAM
+  </h1>
+
+  <p class="theme">
+    RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM
+    RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM RAM
+  </p>
+
+  <!-- THEME BUTTONS -->
+  <div class="theme-buttons">
+    <button class="theme1" onclick="color1()">Theme 1</button>
+    <button class="theme2" onclick="color2()">Theme 2</button>
+    <button class="theme3" onclick="color3()">Theme 3</button>
+    <button class="theme4" onclick="color4()">Theme 4</button>
+    <button class="theme5" onclick="color5()">Theme 5</button>
+    <button class="theme6" onclick="color6()">Theme 6</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
